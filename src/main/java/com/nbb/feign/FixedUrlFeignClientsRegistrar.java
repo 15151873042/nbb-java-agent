@@ -1,9 +1,7 @@
-package com.nbb;
+package com.nbb.feign;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.util.StringUtils;
 
-import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.Map;
 

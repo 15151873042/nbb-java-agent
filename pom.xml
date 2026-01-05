@@ -40,10 +40,10 @@
                     <archive>
                         <!-- 启用 MANIFEST.MF 自定义配置 -->
                         <manifestEntries>
-                            <!-- 代理类全限定名（含 premain 方法） -->
-                            <Premain-Class>com.nbb.FeignAgent</Premain-Class>
-                            <!-- 支持重新定义类（JDK 1.6+） -->
+                            <!-- 代理类全限定名 -->
+                            <Premain-Class>com.nbb.demo.PreAgentDemo</Premain-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
+                            <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>
                     </archive>
                 </configuration>

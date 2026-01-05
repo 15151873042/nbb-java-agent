@@ -1,4 +1,4 @@
-package com.nbb;
+package com.nbb.feign;
 
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.dynamic.ClassFileLocator;
